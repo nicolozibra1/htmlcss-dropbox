@@ -26,6 +26,9 @@ body{
     border: 2px solid red;
 }
 
+.p-20left{
+    padding: 0 20px;
+}
 /* RULES */
 .container{
     max-width: 1200px;
@@ -48,12 +51,28 @@ body{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    background-color: var(--bg-button);
+    padding: 5px 15px;
+    color: white;
+}
 
 /* HEADER */
 header{
     height: 80px;
+    border-bottom: 2px solid lightgrey;
 }
-
+nav{
+    height: 100%;
+    align-items: center;
+}
+.userlog > a{
+    margin-left: 10px;
+}
 /* MAIN */
 .hero-section{
     background-color: var(--bg-hero);
