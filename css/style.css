@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* UTILITY */
+:root{
+    --bg-button: #0061ff;
+    --bg-header: #b4d0e7;
+    --bordergrey: #d0d0d3;
+    --bg-footer: #000000;
+    --lightgreen: #a2d39b;
+    --oceanblue: #0092ce;
+    --purple: #61082b;
+    --lightred: #ff1c1c;
+    --darkred: #d5001f;
+    --darkblue: #0d2481;
+    --bananayellow: #ffd830;
+    --pannawhite: #f5f5f5;
+}
