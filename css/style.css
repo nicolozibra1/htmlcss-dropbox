@@ -41,6 +41,9 @@ body{
 .m-50top{
     margin-top: 50px;
 }
+.m-50bottom{
+    margin-bottom: 50px;
+}
 
 /* RULES */
 .container{
@@ -201,6 +204,23 @@ hr{
     color: black;
     background-color: white;
     border: 1px solid black;
+}
+
+/* SECTION FEATURES */
+.features-container{
+    flex-flow: row wrap;
+}
+.f-article{
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding: 30px;
+}
+.f-article > img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.more-info{
+    text-decoration: underline;
 }
 /* FOOTER */
 footer{
