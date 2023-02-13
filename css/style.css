@@ -30,6 +30,10 @@ body{
     padding: 0 20px;
 }
 
+.p-20top{
+    padding: 20px 0 0 0;
+}
+
 .m-50top{
     margin-top: 50px;
 }
@@ -38,7 +42,7 @@ body{
     max-width: 1200px;
 }
 .small-container{
-    max-width: 1000px;
+    max-width: 1100px;
 }
 .d-flex{
     display: flex;
@@ -115,21 +119,15 @@ h1{
 .plans{
     margin-top:80px;
 }
+.the-card{
+    width: calc(100% / 3);
+}
 .card-head{
     padding:10px;
-    border: 2px solid var(--bordergrey)
+    border: 2px solid var(--bordergrey);
 }
-h3{
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-}
-.more{
-    display: inline-block;
-    color: grey;
-    margin-top: 10px;
-}
-.functionality{
-    flex-direction: column;
+.card-content{
+    border: 2px solid var(--bordergrey);
 }
 .card-head:first-child{
     text-align: center;
@@ -140,12 +138,38 @@ h3{
     gap:50px;
     padding: 30px;
 }
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.functionality{
+    flex-direction: column;
+    height: 200px;
+}
 .trial{
     margin: auto;
 }
+.more{
+    display: inline-block;
+    color: grey;
+    margin-top: 10px;
+}
+.buynow{
+    text-decoration: underline;
+}
+hr{
+    width: 15%;
+    background-color: lightgrey;
+}
+.highlights-list{
+    height: 300px;
+}
+.fa-check{
+    color: var(--bg-button);
+}
+
 /* FOOTER */
 footer{
     background-color: var(--bg-footer);
     color: white;
 }
-

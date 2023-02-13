@@ -52,6 +52,7 @@
                 </div>
             </div>
         </section>
+
         <!-- PLANS -->
         <section class="plans small-container center debug">
             <h2 class="title-section m-50top">Trova il piano business che fa per te</h2>
@@ -59,37 +60,107 @@
                 <input type="radio" name="billing_type" value="Fatturazione mensile"> Fatturazione mensile
                 <input class="billing-year" type="radio" name="billing_type" value="Fatturazione annuale"> Fatturazione annuale
             </form>
+
             <!-- CARD-BOX -->
             <div class="card-container m-50top d-flex debug">
-                <!-- CARD PROFESSIONAL -->
-                <div class="cardbox">
-                    <div class="card-head">
-                        <span class="plan-type"><i class="fa-solid fa-user"></i> Singolo</span>
-                    </div>
-                    <div class="card-content d-flex debug">
-                        <div class="price debug">
-                            <h3>Professional</h3>
-                            <h5>&euro; 12.00</h5>
-                            <span class="more">/mese</span>
+                <div class="cardbox d-flex">
+
+                    <!-- CARD PROFESSIONAL -->
+                    <div class="the-card debug">
+                        <div class="card-head">
+                            <span class="plan-type"><i class="fa-solid fa-user"></i> Singolo</span>
                         </div>
-                        <ul class="functionality d-flex debug">
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione</li>
-                            <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
-                        <a class="button trial debug" href="#">Prova gratis per 30 giorni</a>
-                        <a class="buynow debug" href="#"> Oppure acquista ora</a>
-                        <hr>
-                        <div class="highlights debug">
-                            <h4>Punti Salienti del piano</h4>
-                            <ul class= "debug">
-                                <li>Invia file fino a 100gb con Dropbox Transfer</li>
-                                <li>Cartelle offline su dispositivi mobili</li>
+                        <div class="card-content d-flex debug">
+                            <div class="price debug">
+                                <h3>Professional</h3>
+                                <h5>&euro; 12.00</h5>
+                                <span class="more">/mese</span>
+                            </div>
+                            <ul class="functionality d-flex debug">
+                                <li class="p-20top"><i class="fa-solid fa-user"></i> 1 utente</li>
+                                <li class="p-20top"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li class="p-20top"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
                             </ul>
+                            <a class="button trial debug" href="#">Prova gratis per 30 giorni</a>
+                            <a class="debug" href="#"> Oppure <span class="buynow">acquista ora</span></a>
+                            <hr>
+                            <div class="highlights debug">
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class= "highlights-list debug">
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Invia file fino a 100gb con Dropbox Transfer</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD ADVANCED -->
+                    <div class="the-card debug">
+                        <div class="card-head">
+                            <span class="plan-type"><i class="fa-solid fa-users"></i> Team</span>
+                        </div>
+                        <div class="card-content d-flex debug">
+                            <div class="price debug">
+                                <h3>Advanced</h3>
+                                <h5>&euro; 18.00</h5>
+                                <span class="more">/utente/mese</span>
+                            </div>
+                            <ul class="functionality d-flex debug">
+                                <li class="p-20top"><i class="fa-solid fa-users"></i> 3 o più utenti</li>
+                                <li class="p-20top"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                <li class="p-20top"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
+                            </ul>
+                            <a class="button trial debug" href="#">Prova gratis per 30 giorni</a>
+                            <a class="debug" href="#"> Oppure <span class="buynow">acquista ora</span></a>
+                            <hr>
+                            <div class="highlights debug">
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class= "highlights-list debug">
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD ENTERPRISE -->
+                    <div class="the-card debug">
+                        <div class="card-head">
+                            <span class="plan-type"><i class="fa-solid fa-hotel"></i> Azienda</span>
+                        </div>
+                        <div class="card-content d-flex debug">
+                            <div class="price debug">
+                                <h3>Enterprice</h3>
+                                <h5>Contattaci</h5>
+                                <span class="more">-</span>
+                            </div>
+                            <ul class="functionality d-flex debug">
+                                <li class="p-20top"><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+                                <li class="p-20top"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+                                <li class="p-20top"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala </li>
+                            </ul>
+                            <a class="button trial debug" href="#">Contattaci</a>
+                            <a class="debug" href="#"> Oppure <span class="buynow">acquista ora</span></a>
+                            <hr>
+                            <div class="highlights debug">
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class= "highlights-list debug">
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
+                                    <li class="p-20top"><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <!-- CARD TEAM/ENTERPRISE -->
+            <div class="card-head m-50top debug">
+                <span class="plan-type"><i class="fa-solid fa-hotel"></i> Team</span>
             </div>
         </section>
         <!-- PARTNER -->
