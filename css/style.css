@@ -37,6 +37,9 @@ body{
 .m-50top{
     margin-top: 50px;
 }
+.m-100top{
+    margin-top: 100px;
+}
 /* RULES */
 .container{
     max-width: 1200px;
@@ -129,7 +132,7 @@ h1{
 .card-content{
     border: 2px solid var(--bordergrey);
 }
-.card-head:first-child{
+.card-head{
     text-align: center;
 }
 .card-content{
@@ -167,7 +170,16 @@ hr{
 .fa-check{
     color: var(--bg-button);
 }
-
+.enterprise-info{
+    position:relative;
+    padding:30px;
+    border: 2px solid var(--bordergrey);
+}
+.bttn-contact{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 /* FOOTER */
 footer{
     background-color: var(--bg-footer);
