@@ -10,7 +10,7 @@ body{
 /* UTILITY */
 :root{
     --bg-button: #0061ff;
-    --bg-header: #b4d0e7;
+    --bg-hero: #b4d0e7;
     --bordergrey: #d0d0d3;
     --bg-footer: #000000;
     --lightgreen: #a2d39b;
@@ -22,3 +22,49 @@ body{
     --bananayellow: #ffd830;
     --pannawhite: #f5f5f5;
 }
+.debug{
+    border: 2px solid red;
+}
+
+/* RULES */
+.container{
+    max-width: 1200px;
+}
+.small-container{
+    max-width: 1000px;
+}
+.d-flex{
+    display: flex;
+}
+.fixed{
+    display: fixed;
+}
+.space-b{
+    justify-content: space-between;
+}
+.center{
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+header{
+    height: 80px;
+}
+
+/* MAIN */
+.hero-section{
+    background-color: var(--bg-hero);
+}
+h1{
+    font-size: 4.5rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--bg-footer);
+    color: white;
+}
+
