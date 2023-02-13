@@ -222,6 +222,78 @@ hr{
 .more-info{
     text-decoration: underline;
 }
+
+/* SECTION CUSTOMERS */
+.boxlogo{
+    width: calc(100% / 3);
+    flex-flow: row wrap;
+}
+.square{
+    width:50%;
+    height: 16vw;
+    position: relative;
+}
+.square > img{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.svg-edit{
+    color: #ffff;
+}
+.brand1{
+    background-color: var(--lightgreen);
+}
+.brand2{
+    background-color: var(--purple);
+}
+.brand3{
+    background-color: var(--oceanblue);
+}
+.brand4{
+    background-color: var(--lightred);
+}
+.brand5{
+    background-color: var(--darkred);
+}
+.brand6{
+    background-color: var(--bg-hero);
+}
+.brand7{
+    background-color: var(--darkblue);
+}
+.brand8{
+    background-color: var(--bananayellow);
+}
+.middlebrand{
+    background-color: var(--pannawhite);
+    padding:40px;
+}
+.middlebrand > img{
+    width: 50%;
+}
+.credits{
+    display: block;
+}
+.banner{
+    background-color: var(--bg-hero);
+}
+.box-trial{
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.box-trial > h2{
+    color: var(--purple);
+}
+.bttn-trial{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 30px;
+}
 /* FOOTER */
 footer{
     background-color: var(--bg-footer);
