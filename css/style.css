@@ -29,6 +29,9 @@ body{
 .p-20left{
     padding: 0 20px;
 }
+.m-50top{
+    margin-top: 50px;
+}
 /* RULES */
 .container{
     max-width: 1200px;
@@ -57,7 +60,7 @@ a{
 }
 .button{
     background-color: var(--bg-button);
-    padding: 5px 15px;
+    padding: 8px 15px;
     color: white;
 }
 
@@ -79,6 +82,24 @@ nav{
 }
 h1{
     font-size: 4.5rem;
+    margin: auto;
+}
+.p-hero{
+    width: 35%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.img-hero{
+    width: 65%;
+    height: 360px;
+}
+.img-hero > img{
+    width: 100%;
+    overflow: visible;
+}
+.scroll-to{
+    font-size: 2.5em;
 }
 
 /* FOOTER */
