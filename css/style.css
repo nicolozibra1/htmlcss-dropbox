@@ -321,8 +321,25 @@ details > summary{
 .hr-faq{
     width: 100%;
 }
+
 /* FOOTER */
 footer{
     background-color: var(--bg-footer);
     color: white;
+}
+.list-footer > li{
+    padding: 5px 0;
+}
+.link{
+    color: white;
+}
+.language{
+    padding: 50px 0;
+    color: grey;
+}
+#choose-l{
+    background-color: black;
+    border: none;
+    color: grey;
+    padding-left: 10px;;
 }
