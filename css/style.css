@@ -22,9 +22,9 @@ body{
     --bananayellow: #ffd830;
     --pannawhite: #f5f5f5;
 }
-.debug{
+/* .debug{
     border: 2px solid red;
-}
+} */
 
 .p-20left{
     padding: 0 20px;
@@ -67,6 +67,7 @@ ul{
 a{
     text-decoration: none;
     color: black;
+    position: relative;
 }
 .button{
     background-color: var(--bg-button);
@@ -89,6 +90,23 @@ nav{
 }
 .userlog > a{
     margin-left: 10px;
+}
+
+.a-custom{
+    padding: 25px 0;
+}
+.a-custom:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+}
+.a-custom:hover:after{
+    width: 100%;
+    transition: ease 0.2s;
 }
 /* MAIN */
 
@@ -150,6 +168,7 @@ h1{
 h3{
     font-size: 1.5rem;
     padding-bottom: 15px;
+    z-index: 1;
 }
 .functionality{
     flex-direction: column;
@@ -235,7 +254,8 @@ hr{
     width:50%;
     height: 50%;
     position: relative;
-    z-index: -1;
+    z-index: 1;
+   
 }
 .square > img{
     width: 50%;
@@ -249,6 +269,8 @@ hr{
 }
 .brand1{
     background-color: var(--lightgreen);
+    
+
 }
 .brand2{
     background-color: var(--purple);
@@ -346,4 +368,28 @@ footer{
     border: none;
     color: grey;
     padding-left: 10px;;
+}
+
+/* EFFECT */
+.button:hover{
+    background-color: #4e8ef3;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.bttn-partner:hover, .bttn-trial:hover{
+    background-color: black;
+    color: white;
+    box-shadow: rgba(194, 206, 216, 0.3) 0px 1px 2px 0px, rgba(189, 201, 211, 0.15) 0px 2px 6px 2px;
+}
+summary:hover{
+    cursor:pointer;
+}
+.square:hover{
+    box-shadow: inset 25px 25px 0 0 rgba(140, 148, 155, 0.6);
+    box-shadow: inset 0 0 25px 25px rgba(140, 148, 155, 0.6);
+}
+.link:hover{
+    text-decoration: underline;
+}
+#choose-l:hover{
+    cursor:pointer;
 }
