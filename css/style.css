@@ -295,6 +295,32 @@ hr{
     border: 1px solid black;
     padding: 8px 30px;
 }
+
+/* SECTION FAQ */
+.faq{
+    padding: 100px 0;
+}
+.boxfaq{
+    padding: 30px 0;
+}
+.boxfaq > span{
+    padding-right: 50px;
+}
+details > summary{
+    list-style: none;
+}
+#arrowf1{
+    padding-left: 700px;
+}
+#arrowf2{
+    padding-left: 155px;
+}
+#arrowf3{
+    padding-left: 330px;
+}
+.hr-faq{
+    width: 100%;
+}
 /* FOOTER */
 footer{
     background-color: var(--bg-footer);
