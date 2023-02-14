@@ -55,9 +55,6 @@ body{
 .d-flex{
     display: flex;
 }
-.fixed{
-    display: fixed;
-}
 .space-b{
     justify-content: space-between;
 }
@@ -81,6 +78,10 @@ a{
 header{
     height: 80px;
     border-bottom: 2px solid lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 nav{
     height: 100%;
