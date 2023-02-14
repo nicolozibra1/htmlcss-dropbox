@@ -180,6 +180,7 @@ hr{
     position:relative;
     padding:30px;
     border: 2px solid var(--bordergrey);
+    z-index: -1;
 }
 .bttn-contact{
     position: absolute;
@@ -233,6 +234,7 @@ hr{
     width:50%;
     height: 16vw;
     position: relative;
+    z-index: -1;
 }
 .square > img{
     width: 50%;
