@@ -228,11 +228,12 @@ hr{
 /* SECTION CUSTOMERS */
 .boxlogo{
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     flex-flow: row wrap;
 }
 .square{
     width:50%;
-    height: 16vw;
+    height: 50%;
     position: relative;
     z-index: -1;
 }
@@ -273,6 +274,7 @@ hr{
 .middlebrand{
     background-color: var(--pannawhite);
     padding:40px;
+    overflow-y:auto;
 }
 .middlebrand > img{
     width: 50%;
