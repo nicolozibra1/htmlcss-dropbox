@@ -13,20 +13,65 @@
 </head>
 
 <body>
-    <header class="debug">
-        <nav class="d-flex space-b">
+    <header class="d-flex debug">
+        <div class="logo d-flex debug">
+            <img class="p-20left" src="./img/logo-small.png" alt="logo">
+        </div>
+        <nav class="d-flex space-b">  
             <div class="h-left d-flex debug">
-                <img class="p-20left" src="./img/logo-small.png" alt="logo">
                 <ul class="menu d-flex">
-                    <li class="p-20left"><a class="a-custom" href="#">Perchè Dropbox</a></li>
-                    <li class="p-20left"><a class="a-custom" href="#">Funzioni</a></li>
-                    <li class="p-20left"><a class="a-custom" href="#">Piani e Prezzi</a></li>
+                    <li class="li-drop d-flex p-20left">
+                        <a class="a-custom" href="#">Perchè Dropbox</a>
+                        <ul class="dropdown">
+                            <li class="li-drop-content"><a href="#">Ispirati</a></li>
+                            <li class="li-drop-content"><a href="#">Cosa dicono i clienti</a></li>
+                            <li class="li-drop-content"><a href="#">Integrazioni di app</a></li>
+                            <li class="li-drop-content"><a href="#">Risorse</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-drop d-flex p-20left">
+                        <a class="a-custom" href="#">Prodotti</a>
+                        <ul class="dropdown">
+                            <li class="li-drop-content"><a href="#">Dropbox</a></li>
+                            <li class="li-drop-content"><a href="#">Backup</a></li>
+                            <li class="li-drop-content"><a href="#">Sign</a></li>
+                            <li class="li-drop-content"><a href="#">DocSend</a></li>
+                            <li class="li-drop-content"><a href="#">Capture</a></li>
+                            <li class="li-drop-content"><a href="#">Accesso Anticipato</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-drop d-flex p-20left">
+                        <a class="a-custom" href="#">Soluzioni</a>
+                        <ul class="dropdown">
+                            <li class="li-drop-content"><a href="#">Creativi</a></li>
+                            <li class="li-drop-content"><a href="#">Vendite</a></li>
+                            <li class="li-drop-content"><a href="#">Marketing</a></li>
+                            <li class="li-drop-content"><a href="#">Risorse umane</a></li>
+                            <li class="li-drop-content"><a href="#">IT</a></li>
+                            <li class="li-drop-content"><a href="#">Team Lead</a></li>
+                            <li class="li-drop-content"><a href="#">Personale</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="h-right d-flex debug">
                 <ul class="support-nav d-flex">
-                    <li class="p-20left"><a class="a-custom" href="#">Supporto</a></li>
-                    <li class="p-20left"><a class="a-custom" href="#">Contatta l'ufficio vendite</a></li>
+                    <li class="li-drop d-flex p-20left">
+                        <a class="a-custom" href="#">Contatti</a>
+                        <ul class="dropdown">
+                            <li class="li-drop-content"><a href="#">Centro assistenza</a></li>
+                            <li class="li-drop-content"><a href="#">Forum della community</a></li>
+                            <li class="li-drop-content"><a href="#">Invia email</a></li>
+                            <li class="li-drop-content"><a href="#">Chat</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-drop d-flex p-20left">
+                        <a class="a-custom" href="#">Scarica applicazione</a>
+                        <ul class="dropdown">
+                            <li class="li-drop-content"><a href="#">App desktop</a></li>
+                            <li class="li-drop-content"><a href="#">App per dispositivi mobile</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <div class="userlog p-20left">
                     <a class="button-login" href="#">Accedi</a>

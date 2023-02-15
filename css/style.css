@@ -86,30 +86,57 @@ header{
     top: 0;
     width: 100%;
     background-color: white;
+    z-index:999;
+}
+.logo{
+    display: inline-block;
+}
+.logo > img{
+    margin-top: 25px;
 }
 nav{
     height: 100%;
     align-items: center;
+    width: 100%
+}
+/* DROPDOWN MENU update-v1.2 */
+ul.dropdown{
+    width: 100%;
+    background-color: var(--pannawhite);
+    position:absolute;
+    z-index: 999;
+    display: none;
+    top:100%;
+    left:0;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 25px 20px -20px;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+.li-drop:hover .a-custom{
+    font-weight: bold;
+}
+.li-drop:hover{
+    background-color: var(--pannawhite);
+}
+.li-drop{
+    padding:30px;
+    position: relative;
+}
+.li-drop-content{
+    padding: 10px 10px;
+    font-size: 14px;
+}
+.li-drop-content:hover{
+    font-weight: bold;
+    background-color: #d4d3d3;
+}
+.userlog{
+    padding:30px;
+    position: relative;
 }
 .userlog > a{
     margin-left: 10px;
-}
-
-.a-custom{
-    padding: 25px 0;
-}
-.a-custom:after{
-    content: "";
-    position: absolute;
-    background-color: black;
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: -6px;
-}
-.a-custom:hover:after{
-    width: 100%;
-    transition: ease 0.2s;
 }
 /* MAIN */
 
@@ -387,8 +414,8 @@ summary:hover{
     cursor:pointer;
 }
 .square:hover{
-    box-shadow: inset 25px 25px 0 0 rgba(140, 148, 155, 0.6);
-    box-shadow: inset 0 0 25px 25px rgba(140, 148, 155, 0.6);
+    box-shadow: inset 25px 25px 0 0 rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 25px 25px rgba(255, 255, 255, 0.3);
 }
 .link:hover{
     text-decoration: underline;
@@ -396,3 +423,5 @@ summary:hover{
 #choose-l:hover{
     cursor:pointer;
 }
+
+
